@@ -1,104 +1,121 @@
-<!DOCTYPE html><html lang="ur" dir="rtl">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قرآن اکیڈمی</title>
-    <style>
-        body {
-            font-family: 'Noto Nastaliq Urdu', serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-        header {
-            background-color: #004d40;
-            text-align: center;
-            padding: 20px;
-            color: white;
-        }
-        header img {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
-        }
-        h1 {
-            margin: 10px 0;
-            font-size: 32px;
-        }
-        section {
-            padding: 20px;
-            background: white;
-            margin: 10px;
-            border-radius: 10px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        section img {
-            width: 100%;
-            border-radius: 10px;
-            margin-top: 10px;
-        }
-        .whatsapp-icon {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            width: 60px;
-            height: 60px;
-            z-index: 1000;
-        }
-        .contact {
-            background-color: #000;
-            color: #fff;
-            padding: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Quran Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 80px;
+      vertical-align: middle;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    .course {
+      margin-bottom: 30px;
+    }
+    .course img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    form input, form textarea, form button {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    #contact {
+      background-color: #000;
+      color: #fff;
+      padding: 40px 20px;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .whatsapp img {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="quran_top_banner.jpg" alt="قرآن بینر">
-        <h1>قرآن اکیڈمی</h1>
-    </header><section>
-    <h2>نورانی قاعدہ</h2>
-    <p>نورانی قاعدے کے ذریعے قرآن کی بنیادی تعلیم دی جاتی ہے۔</p>
-    <img src="noorani_qaida.jpg" alt="نورانی قاعدہ">
-</section>
+  <header>
+    <img src="logo.jpg" alt="Academy Logo">
+    <h1>Online Quran Academy</h1>
+  </header>  <section id="welcome">
+    <h2>Welcome</h2>
+    <p>Welcome to our Online Quran Academy where we provide quality Islamic education to students all around the world.</p>
+  </section>  <section id="about">
+    <h2>About Us</h2>
+    <p>We are dedicated to providing online Quran education with experienced teachers who ensure personal attention and proper Tajweed.</p>
+  </section>  <section id="purpose">
+    <h2>Our Purpose</h2>
+    <p>Our purpose is to make Quran learning easy and accessible for every Muslim around the world. We aim to teach with dedication, sincerity, and passion in light of Islamic principles.</p>
+  </section>  <section id="courses">
+    <h2>Our Courses</h2><div class="course">
+  <h3>Norani Qaida</h3>
+  <img src="norani.jpg" alt="Norani Qaida">
+  <p>This course is taught by expert teachers to build a strong foundation of Arabic letters and pronunciation.</p>
+</div>
 
-<section>
-    <h2>ناظرہ قرآن</h2>
-    <p>صحیح تلفظ کے ساتھ قرآن مجید کی تلاوت سیکھائی جاتی ہے۔</p>
-    <img src="nazra_quran.jpg" alt="ناظرہ قرآن">
-</section>
+<div class="course">
+  <h3>Nazra</h3>
+  <img src="nazra.jpg" alt="Nazra">
+  <p>In our Nazra course, students read the Quran fluently with Tajweed rules and personal guidance.</p>
+</div>
 
-<section>
-    <h2>حفظ قرآن</h2>
-    <p>قرآن مجید کو مکمل حفظ کرایا جاتا ہے ماہر اساتذہ کی نگرانی میں۔</p>
-    <img src="hifz_quran.jpg" alt="حفظ قرآن">
-</section>
+<div class="course">
+  <h3>Hifz</h3>
+  <img src="hifz.jpg" alt="Hifz">
+  <p>Memorize the Holy Quran with daily schedules and revision plans under qualified Huffaz teachers.</p>
+</div>
 
-<section>
-    <h2>نماز تربیت</h2>
-    <p>نماز کے مکمل طریقے کی تربیت بچوں اور بڑوں کے لیے۔</p>
-    <img src="salah_training.jpg" alt="نماز تربیت">
-</section>
+<div class="course">
+  <h3>Salat (Namaz)</h3>
+  <img src="salat.jpg" alt="Salat">
+  <p>Learn how to perform Salat with proper words, meanings, and physical postures. Ideal for kids and new learners.</p>
+</div>
 
-<section>
-    <h2>تمام کورسز (بغیر تصویر)</h2>
-    <ul>
-        <li>نورانی قاعدہ</li>
-        <li>ناظرہ قرآن</li>
-        <li>حفظ قرآن</li>
-        <li>نماز تربیت</li>
-    </ul>
-</section>
-
-<section class="contact">
-    <h2>رابطہ کریں</h2>
-    <p>فون نمبر: 0300-1234567</p>
-    <p>ای میل: example@email.com</p>
-</section>
-
-<a href="https://wa.me/923001234567" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" class="whatsapp-icon" alt="WhatsApp">
-</a>
-
+  </section>  <section id="registration">
+    <h2>Register Now</h2>
+    <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="Full Name" placeholder="Your Full Name" required>
+      <input type="email" name="Email Address" placeholder="Your Email Address" required>
+      <input type="text" name="Phone Number" placeholder="Your WhatsApp Number" required>
+      <textarea name="Message" placeholder="Any Message or Course Interested In" rows="4"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: sanaullahfarooq2@gmail.com</p>
+    <p>Phone: +1234567890</p>
+  </section>  <div class="whatsapp">
+    <a href="https://wa.me/1234567890" target="_blank">
+      <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
+    </a>
+  </div>
 </body>
 </html>
