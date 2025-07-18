@@ -1,9 +1,8 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Online Quran Academy</title>
-  <link rel="stylesheet" href="styles.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,111 +10,136 @@
       padding: 0;
     }
     header {
-      background-color: #2c3e50;
-      color: white;
-      padding: 20px;
+      background-color: #f0f0f0;
       text-align: center;
+      padding: 20px;
     }
     header img {
-      max-width: 80px;
-      vertical-align: middle;
+      width: 100px;
+      height: auto;
+    }
+    h1 {
+      margin-top: 10px;
     }
     section {
-      padding: 40px 20px;
-    }
-    h2 {
-      color: #2c3e50;
+      padding: 20px;
     }
     .course {
-      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 10px;
     }
     .course img {
       width: 100%;
       max-width: 400px;
       display: block;
-      margin-bottom: 10px;
+      margin-top: 10px;
     }
-    form input, form textarea, form button {
-      display: block;
+    form input, form button {
       width: 100%;
-      max-width: 400px;
+      padding: 8px;
       margin-bottom: 10px;
-      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
     }
-    #contact {
+    form button {
+      background-color: #28a745;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
       background-color: #000;
-      color: #fff;
-      padding: 40px 20px;
+      color: white;
+      text-align: center;
+      padding: 20px;
     }
-    .whatsapp {
+    #whatsapp-icon {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      z-index: 1000;
-    }
-    .whatsapp img {
       width: 50px;
-      height: 50px;
     }
   </style>
 </head>
 <body>
+
+  <!-- Header and Logo -->
   <header>
-    <img src="logo.jpg" alt="Academy Logo">
+    <img src="images/logo.jpg" alt="Academy Logo">
     <h1>Online Quran Academy</h1>
-  </header>  <section id="welcome">
-    <h2>Welcome</h2>
-    <p>Welcome to our Online Quran Academy where we provide quality Islamic education to students all around the world.</p>
-  </section>  <section id="about">
-    <h2>About Us</h2>
-    <p>We are dedicated to providing online Quran education with experienced teachers who ensure personal attention and proper Tajweed.</p>
-  </section>  <section id="purpose">
-    <h2>Our Purpose</h2>
-    <p>Our purpose is to make Quran learning easy and accessible for every Muslim around the world. We aim to teach with dedication, sincerity, and passion in light of Islamic principles.</p>
-  </section>  <section id="courses">
-    <h2>Our Courses</h2><div class="course">
-  <h3>Norani Qaida</h3>
-  <img src="norani.jpg" alt="Norani Qaida">
-  <p>This course is taught by expert teachers to build a strong foundation of Arabic letters and pronunciation.</p>
-</div>
+  </header>
 
-<div class="course">
-  <h3>Nazra</h3>
-  <img src="nazra.jpg" alt="Nazra">
-  <p>In our Nazra course, students read the Quran fluently with Tajweed rules and personal guidance.</p>
-</div>
+  <!-- Welcome -->
+  <section>
+    <h2>📖 Welcome to Our Quran Academy</h2>
+    <p>We offer authentic and professional Quran education for all ages, globally. Learn with experienced teachers from the comfort of your home.</p>
+  </section>
 
-<div class="course">
-  <h3>Hifz</h3>
-  <img src="hifz.jpg" alt="Hifz">
-  <p>Memorize the Holy Quran with daily schedules and revision plans under qualified Huffaz teachers.</p>
-</div>
+  <!-- About Us -->
+  <section>
+    <h2>👥 About Us</h2>
+    <p>Our academy provides structured Quranic education including Tajweed, Nazra, Hifz, and Salah with personalized attention for each student.</p>
+  </section>
 
-<div class="course">
-  <h3>Salat (Namaz)</h3>
-  <img src="salat.jpg" alt="Salat">
-  <p>Learn how to perform Salat with proper words, meanings, and physical postures. Ideal for kids and new learners.</p>
-</div>
+  <!-- Our Purpose -->
+  <section>
+    <h2>🎯 Our Purpose</h2>
+    <p>Our purpose is to spread the message of the Quran across the world by making quality Islamic education accessible to all through online learning.</p>
+  </section>
 
-  </section>  <section id="registration">
-    <h2>Register Now</h2>
-    <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_template" value="table">
-      <input type="text" name="Full Name" placeholder="Your Full Name" required>
-      <input type="email" name="Email Address" placeholder="Your Email Address" required>
-      <input type="text" name="Phone Number" placeholder="Your WhatsApp Number" required>
-      <textarea name="Message" placeholder="Any Message or Course Interested In" rows="4"></textarea>
-      <button type="submit">Submit</button>
+  <!-- Courses Section -->
+  <section>
+    <h2>📚 Our Courses</h2>
+
+    <div class="course">
+      <h3>📘 Noorani Qaida</h3>
+      <p>Learn the basics of Arabic reading with proper pronunciation and Tajweed from expert teachers.</p>
+      <img src="images/noorani.jpg" alt="Noorani Qaida">
+    </div>
+
+    <div class="course">
+      <h3>📖 Nazra (Quran Reading)</h3>
+      <p>Fluent Quran reading with proper Tajweed by qualified scholars.</p>
+      <img src="images/nazra.jpg" alt="Nazra">
+    </div>
+
+    <div class="course">
+      <h3>🧠 Hifz ul Quran</h3>
+      <p>Memorize the Holy Quran with personal guidance and daily revision plans.</p>
+      <img src="images/hifz.jpg" alt="Hifz">
+    </div>
+
+    <div class="course">
+      <h3>🕌 Salah (Namaz) Training</h3>
+      <p>Learn how to perform prayer with accuracy, including all essential duas and postures.</p>
+      <img src="images/namaz.jpg" alt="Namaz">
+    </div>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>📝 Register Now</h2>
+    <form action="https://formsubmit.co/sanaullahfarooq2@gmail.com" method="POST">
+      <input type="text" name="Full Name" placeholder="👤 Full Name" required>
+      <input type="text" name="Country" placeholder="🌍 Country" required>
+      <input type="number" name="Age" placeholder="🎂 Age of Student">
+      <input type="text" name="Contact" placeholder="📞 Contact No (optional)">
+      <button type="submit">Submit Registration</button>
     </form>
-  </section>  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: sanaullahfarooq2@gmail.com</p>
-    <p>Phone: +1234567890</p>
-  </section>  <div class="whatsapp">
-    <a href="https://wa.me/1234567890" target="_blank">
-      <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
-    </a>
-  </div>
+  </section>
+
+  <!-- WhatsApp Icon -->
+  <a href="https://wa.me/923400176595" target="_blank">
+    <img src="images/whatsapp-icon.png" alt="WhatsApp" id="whatsapp-icon">
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <p>📞 Contact: +92-3400176595 | 📧 Email: sanaullahfarooq2@gmail.com</p>
+    <p>© 2025 Online Quran Academy. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
